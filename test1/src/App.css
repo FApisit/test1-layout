@@ -1,0 +1,157 @@
+body {
+  background-image: linear-gradient(to right,#6eda78, #ffa200 );
+  overflow: hidden;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btnleft, .btnright {
+  background-color: white;
+  border-radius: 10px;
+  border: 0;
+  height: 80px;
+  width: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 8px;
+}
+
+.btnswtich {
+  background-color: white;
+  border-radius: 10px;
+  border: 0;
+  height: 80px;
+  width: 180px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.shapeleft {
+  clip-path: polygon(0 50%, 100% 100%, 100% 0);
+  background-color: gray;
+  height: 50px;
+  width: 60px;
+}
+
+.shaperight {
+  clip-path: polygon(0 50%, 100% 100%, 100% 0);
+  background-color: gray;
+  transform: rotateY(180deg);
+  height: 50px;
+  width: 60px;
+}
+
+.shapemiddle1 {
+  clip-path: polygon(0 50%, 100% 100%, 100% 0);
+  background-color: gray;
+  transform: rotate(90deg);
+  height: 50px;
+  width: 60px;
+}
+
+.shapemiddle2 {
+  clip-path: polygon(0 50%, 100% 100%, 100% 0);
+  background-color: gray;
+  transform: rotate(270deg);
+  height: 50px;
+  width: 60px;
+}
+
+.btnleft:hover,
+.btnright:hover,
+.btnswtich:hover,
+.btnshape:hover {
+  background-color: #ffa200;
+  cursor: pointer;
+}
+
+.btnleft:active,
+.btnright:active,
+.btnswtich:active,
+.btnshape:active  {
+  background-color: #6eda78;
+}
+
+.allshape-container1 {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.allshape-container2 {
+  margin-top: 6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btnshape {
+  background-color: white;
+  border-radius: 10px;
+  border: 0;
+  height: 80px;
+  width: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 8px 0 0;
+}
+
+.shape1 {
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+  background-color: gray;
+  transform: rotate(90deg);
+  height: 60px;
+  width: 60px;
+}
+
+.shape2 {
+  clip-path: circle(50% at 50% 50%);
+  background-color: gray;
+  height: 60px;
+  width: 60px;
+}
+
+.shape3 {
+  clip-path: ellipse(25% 40% at 50% 50%);
+  background-color: gray;
+  transform: rotate(90deg);
+  height: 120px;
+  width: 90px;
+}
+
+.shape4 {
+  clip-path: polygon(20% 0%, 80% 0%, 100% 100%, 0% 100%);
+  background-color: gray;
+  height: 50px;
+  width: 100px;
+}
+
+.shape5{
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+  background-color: gray;
+  height: 50px;
+  width: 100px;
+}
+
+.shape6 {
+  clip-path: polygon(0 0, 75% 0, 100% 100%, 25% 100%);
+  background-color: gray;
+  height: 50px;
+  width: 100px;
+}
+
+
+
+
+
+
+
+
